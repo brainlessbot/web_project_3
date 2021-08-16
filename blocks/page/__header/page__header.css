@@ -1,0 +1,16 @@
+.page__header {
+  margin: 34px 0 58px;
+  grid-area: header;
+}
+
+@media screen and (max-width: 1024px) {
+  .page__header {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .page__header {
+    margin-top: 20px;
+  }
+}

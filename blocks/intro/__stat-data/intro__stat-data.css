@@ -1,0 +1,13 @@
+.intro__stat-data {
+  margin: 0;
+  display: inline;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.intro__stat-data::after {
+  display: block;
+  content: '';
+}

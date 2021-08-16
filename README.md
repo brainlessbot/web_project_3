@@ -1,20 +1,20 @@
-# Project 3: From Portland to Portland
+# From Portland to Portland
 
-### Overview
-* Intro
-* Figma
-* Images
+## Intro
 
-**Intro**
+This is a single-page HTML and CSS project about traveling across the US. It was built as part of Yandex's Practicum100 program.
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+This project demonstrates advanced HTML and CSS concepts, such as grid and flexbox layouts, animations and responsive designing.
 
-**Figma**
+## Links
 
+* [Link to the project on GitHub Pages](https://brainlessbot.github.io/web_project_3/)
 * [Link to the project on Figma](https://www.figma.com/file/AtbNbstbxWPcMqvF061V0R/Sprint-3%3A-From-Portland-to-Portland-%7C-desktop-%2B-mobile?node-id=0%3A1)
 
-**Images**
+## Installation
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
+In order to download and work on this project you need to understand the basics of HTML and CSS, and to have `git` installed on your computer.
 
-Good luck and have fun!
+Use this single command inside your terminal:
+
+`git clone https://github.com/brainlessbot/web_project_3.git`

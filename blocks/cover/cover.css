@@ -1,0 +1,30 @@
+.cover {
+  min-height: 740px;
+  background-image: url('../../images/cover-background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.cover:hover .cover__overlay {
+  opacity: .8;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cover {
+    min-height: 200px;
+  }
+}
