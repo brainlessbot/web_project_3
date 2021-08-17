@@ -1,11 +1,15 @@
 .footer__links-list {
   margin: 0;
   padding: 0;
+  display: flex;
+  gap: 18px;
   list-style: none;
 }
 
 @media screen and (max-width: 480px) {
   .footer__links-list {
     margin-bottom: 48px;
+    flex-direction: column;
+    gap: 32px;
   }
 }
