@@ -1,6 +1,6 @@
 .place {
   display: grid;
-  grid-template-columns: 460px 1fr;
+  grid-template-columns: minmax(400px, 1fr) minmax(auto, 484px);
   grid-template-areas:
     'title website'
     'image paragraphs';
@@ -9,19 +9,19 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    grid-template-columns: 440px 1fr;
+    grid-template-columns: minmax(400px, 1fr) minmax(auto, 456px);
     grid-gap: 48px 32px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .place {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(240px, 1fr) minmax(auto, 352px);
     grid-gap: 48px 28px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
   .place {
     grid-template-columns: 1fr calc(100% - 32px) 1fr;
     grid-template-areas:
